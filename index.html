@@ -84,8 +84,25 @@
         <img src="https://img.icons8.com/nolan/64/github.png"/>
         <img src="https://img.icons8.com/nolan/64/linkedin.png"/>
         <img src="https://img.icons8.com/nolan/64/important-mail.png"/>
-
       </div>
+
+      <form action="" class="form-container" method="POST">
+        <h3>ESCRIBEME</h3>
+        <label for="nombre">Nombre*   </label>
+        <input type="text" name="name" id="name" placeholder="  Escriba su nombre aqui" required>
+        <label for="apellido">Apellido*   </label>
+        <input type="text" name="lastname" id="lastname" placeholder="  Escriba su apellido aqui" required>
+        <label for="mail">Mail*   </label>
+        <input type="email" name="mail" id="mail" placeholder="  Escriba su email aqui" required>
+        <label for="message">Mensaje*   </label>
+        <textarea 
+          name="message" 
+          id="message" 
+          cols="40" 
+          rows="5"
+          placeholder="  Escriba su mensaje aqui"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </main>
 
