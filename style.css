@@ -1,8 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #E5FFFA;
     font-family: 'Quicksand', sans-serif;
 }
-/*colores #8608B4fuentes   #E5FFFAfondo
 
-font-family: 'Zen Loop', cursive;
-*/
+header{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+nav, .footer-contenedor{
+    background-color: rgb(175, 106, 240);
+}
+
+.a-hola, .a-conocimientos, .a-proyectos, .a-contacto-footer {
+    color: white;
+}
+
+.a-contacto{
+    background-color: blueviolet;
+    color: white;
+    border-style: solid;
+    border-radius: 20%;
+}
+
+.hola-contenedor, {
+    background-color: white;
+}
+
+.quote{
+    background-color: white;
+}
+
+.p-quote{
+    font-family: 'Zen Loop', cursive;
+}
+
+.contacto-contenedor{
+    background-color: white;
+}
+
