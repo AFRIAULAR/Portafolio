@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: #E5FFFA;
     font-family: 'Quicksand', sans-serif;
@@ -11,9 +12,11 @@ body{
 header{
     background-color: white;
 }
+
 a{
     text-decoration: none;
 }
+
 ul{
     list-style: none;
 }
@@ -33,19 +36,85 @@ nav, .footer-contenedor{
     border-radius: 20%;
 }
 
-.hola-contenedor, {
+.hola-contenedor {
     background-color: white;
 }
 
-.quote{
+.conocimientos-contenedor{
+    height: 500px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-contenedor{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-conocimientos {
     background-color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    text-align: center;
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-conocimientos:hover{
+    border: 1px solid #995cef; 
+    text-shadow: 2px 2px 5px gray;
+}
+
+.quote{
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    transition: background-color .5s
+}
+.h2-quote{
+    font-size: 25px;
 }
 
 .p-quote{
     font-family: 'Zen Loop', cursive;
+    font-size: 80px;
 }
 
+.quote:hover{
+    background-color:  #E5FFFA;;
+}
+
+.card-proyectos{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width:300px;
+    height: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .contacto-contenedor{
     background-color: white;
+    
 }
-
+.a-text{
+    text-align: center;
+    color:blueviolet;
+}
