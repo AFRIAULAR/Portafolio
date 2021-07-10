@@ -15,6 +15,7 @@ header{
 
 a{
     text-decoration: none;
+    color:blueviolet
 }
 
 ul{
@@ -105,16 +106,36 @@ nav, .footer-contenedor{
     height: auto;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 10%;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .contacto-contenedor{
     background-color: white;
+     margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
     
 }
 .a-text{
     text-align: center;
     color:blueviolet;
+}
+
+.div-contacto{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: blueviolet;
+    display: flex;
+}
+.li-redes{
+    display: flex;
+    justify-content: left;  
+}
+
+.li-redes:hover{
+    text-shadow: 2px 2px 5px gray;
 }

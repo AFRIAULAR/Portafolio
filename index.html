@@ -101,35 +101,42 @@
     <!--  ***CONTACTO***   -->
     <section class="contacto-contenedor">
       <a name="contacto"></a>
-      <div class="redes-contenedor">
-        <h3>Contactame</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam impedit quibusdam, magni itaque sequi dolores!</p>
-        <a class="a-footer" href="https://twitter.com/afriaular">
-        <img src="https://img.icons8.com/dusk/64/000000/twitter.png"/></a>
-        <a class="a-footer" href="https://github.com/AFRIAULAR"><img src="https://img.icons8.com/dusk/64/000000/github.png"/></a>
-        <a class="a-contact" href="https://www.linkedin.com/in/africaaular">
-        <img src="https://img.icons8.com/dusk/64/000000/linkedin.png"/></a>
-        <a class="a-contact" href="mailto:aularafrica@gmail.com">
-        <img src="https://img.icons8.com/dusk/64/000000/windows-live-mail.png"/></a>
+      <div class="div-contacto">
+        <div class="div-contactame">
+          <h3>Contactame</h3>
+          <p>Acá te dejo mis redes para saber más de mí</p>
+          <div class="div-redes">
+          <ul>
+            <li class="li-redes"><a class="a-footer" href="https://twitter.com/afriaular">
+              <img src="https://img.icons8.com/dusk/64/000000/twitter.png" width="30px"/>@afriaular</a></li>
+            <li class="li-redes"><a class="a-footer" href="https://github.com/AFRIAULAR"><img src="https://img.icons8.com/dusk/64/000000/github.png" width="30px"/>AFRIAULAR</a></li>  
+            <li class="li-redes"><a class="a-contact" href="https://www.linkedin.com/in/africaaular">
+              <img src="https://img.icons8.com/dusk/64/000000/linkedin.png" width="30px"/>África Aular Ruiz</a></li>
+            <li class="li-redes"><a class="a-contact" href="mailto:aularafrica@gmail.com">
+              <img src="https://img.icons8.com/dusk/64/000000/windows-live-mail.png" width="30px"/>aularafrica@gmail.com</a></li>
+          </ul>
+          </div>
+        </div>
       </div>
-
-      <form action="" class="form-container" method="POST">
-        <h3>Escríbeme</h3>
-        <label for="nombre">Nombre*   </label>
-        <input type="text" name="name" id="name" placeholder="  Escriba su nombre aqui" required>
-        <label for="apellido">Apellido*   </label>
-        <input type="text" name="lastname" id="lastname" placeholder="  Escriba su apellido aqui" required>
-        <label for="mail">Mail*   </label>
-        <input type="email" name="mail" id="mail" placeholder="  Escriba su email aqui" required>
-        <label for="message">Mensaje*   </label>
-        <textarea 
-          name="message" 
-          id="message" 
-          cols="40" 
-          rows="5"
-          placeholder="  Escriba su mensaje aqui"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <div class="div-contacto">
+        <form action="" class="form-container" method="POST">
+          <h3>O también escríbeme</h3>
+          <label for="nombre">Nombre*   </label>
+          <input type="text" name="name" id="name" placeholder="  Escriba su nombre aqui" required>
+          <label for="apellido">Apellido*   </label>
+          <input type="text" name="lastname" id="lastname" placeholder="  Escriba su apellido aqui" required>
+          <label for="mail">Mail*   </label>
+          <input type="email" name="mail" id="mail" placeholder="  Escriba su email aqui" required>
+          <label for="message">Mensaje*   </label>
+          <textarea 
+            name="message" 
+            id="message" 
+            cols="40" 
+            rows="5"
+            placeholder="  Escriba su mensaje aqui"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
     </section>
   </main>
 
@@ -154,6 +161,6 @@
       </div>
       <p>Hecho con ☕ y ❤ por África</p>
     </div>
-  </footer>
+  </footer> 
 </body>
 </html>
