@@ -1,0 +1,11 @@
+Querida Afri,
+
+Veo muchísimo potencial en tu trabajo: me encantan los colores elegidos, las imágenes, la tipografía. Estas decisiones me muestran que tenías una idea clara de lo que querías reflejar en tu portolio. Tu código HTML es bueno, claro, usás bien las etiquetas y tenés excelentes nombres de clase. Tu CSS esta correctísimo, no usás estilos de más, usás los estilos correctos para cada etiqueta. 
+
+Todo esto parece demostrar que tenés los conocimientos de base para superar la primera etapa del curso. Me queda la pregunta entonces, ¿por qué no pudiste terminar el trabajo? Si la respuesta a este interrogante es "faltó tiempo", no me preocupa: a todas nos falta y sé que el curso insume mucho, muchísimo tiempo que no siempre tenemos. Sí creo que vale la pena que cuando puedas, sin presión, vuelvas a visitar este trabajo. Para demostrarte a vos misma que podés. 
+
+Si la respuesta es diferente, me gustaría que fuera algo que hablaramos. Si tuviste el tiempo pero no pudiste resolver algunas cosas, si te quedaste trabada con cosas que no salían, si no se te ocurría como encarar algunas secciones... son cosas que quiero saber, así podemos hablarlas, explicarlas de nuevo si es necesario, que evacúes tus dudas. En particular, dos temas me preocupan dado que no veo que estén resueltos de ninguna manera aquí, y no puedo darme una idea de tu grado de comprensión de ellos: estilar formularios y media queries para hacer la web responsive. 
+
+Faltan varias de las cosas que consideramos necesarias para aprobar este trabajo: en particular, el estilado de las secciones, en particular el formulario, y el responsive. Creo sin embargo que el código que vi alcanza para mostrar tus conocimientos, y no creo que sea necesario pedirte que vuelvas a cursar este primer módulo con algún otro curso (a menos que vos sientas que necesitas repasar estos conceptos): con eso en mente, voy a posponer la decisión sobre la nota hasta ver tu próximo TP. Quiero estar segura si lo que faltó es tiempo o algo más. 
+
+No dejes de escribirme si algo te genera dudas. Siempre estoy disponible para vos...! 
